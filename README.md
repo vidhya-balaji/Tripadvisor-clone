@@ -15,11 +15,6 @@ CSS3: For styling and layout design.
 Media Queries: Used for creating responsive breakpoints to adjust the layout for various screen sizes.
 Installation
 To get started with this project:
-
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/your-username/tripadvisor-responsive-design.git
 Open the index.html file in your browser to see the design in action.
 How It Works
 The layout is built with Flexbox and CSS Grid to create flexible and dynamic structures.
