@@ -1,0 +1,391 @@
+body{
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar{
+    position:sticky;
+    top:0;
+    margin:10px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    gap:10px;
+    flex-grow: 1;
+    justify-content: space-between;
+    z-index: 3;
+    background-color: white;
+    flex-basis: 200px;
+}
+.navbar__sec1{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.navbar__s1{
+    background-color: #34e0a1;
+    width: fit-content;
+    height: 40px;
+    border-radius: 50px;
+    padding: 5px;
+}
+.navbar__s1 img{
+    width: 40px;
+}
+
+.navbar h1{
+    font-size: 30px;
+}
+.navbar__s2{
+    display: flex;
+    gap: 30px;
+    flex-grow: 1;
+    flex-basis: 70px;
+    margin-left: 200px;
+    justify-content:space-between;
+    width: 40%;
+}
+
+.navbar__s2 p{
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+}
+.navbar__s2 p:hover{
+    box-shadow: 20px;
+    border:none;
+    background-color:lightgray;
+    cursor: pointer;
+}
+#forum:hover{
+    text-decoration: underline;
+    background-color:white;
+}
+.navbar__s3{
+    display: flex;
+    width: 20%;
+    height: 25px;
+    gap: 20px;
+    align-items: center;
+   
+}
+#navbar__s3-currency{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+}
+#navbar__s3-currency-notification{
+    width: 40px;
+}
+.navbar__s3-currency-partition{
+    background-color:darkgrey;
+    height: 20px;
+    margin: 8px;
+    width: .2px;
+    padding: 1px;
+    bottom :20px;
+
+}
+#navbar__s3-currency-notification img{
+width: 20px;
+}
+#navbar__s3-currency:hover{
+    box-shadow: 20px;
+    border:none;
+    background-color:lightgray;
+    cursor: pointer;
+    border-radius: 25px;    
+}
+
+#navbar__s3-signin{
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#navbar__s3-signin:hover{
+    opacity: 0.7;
+
+}
+
+
+.where div{
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 60px;
+    display: block;
+    text-align: center;
+    font-family: inherit;
+}
+
+.options-list{
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.options-list img{
+    width: 20px;
+    height: 20px;
+}
+.options-list p{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    font-size: 20px;
+    font-family: inherit;
+    display: flex;
+    gap:5px;
+}
+.options-list p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+.searchbarcontainer{
+    height: 50px;
+    width:70%;
+    border:none;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+    margin-left: 200px;
+}
+.searchbarcontainer img{
+    width: 40px;
+    height: 40px;
+}
+.searchbarcontainer input{
+    width: 800px;
+    border: 0;
+}
+.searchbarcontainer button{
+    width: 100px;
+    background-color: #34e0a1;
+    color:black;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 550;
+    height: 50px;
+    border: none;
+}
+#search:hover{
+    opacity: 0.8;
+}
+.trip1{
+    padding: 50px;
+    border-radius: 20px;
+    position:relative;
+
+}
+.trip1 img{
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+}
+.trip1__contentcard{
+    background-color: transparent;
+    color:white;
+    position:absolute;
+    left:100px;
+    top:400px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.checkout{
+    border-radius: 25px;
+    background-color: white;
+    color:black;
+    border:none;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.checkout:hover{
+    opacity: .9;
+}
+.mealList{
+    position:relative;
+}
+.d1,.d2,.d3,.d4{
+    position:absolute;
+    color:white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.d1{
+    left:80px;
+    top:300px;
+}
+.d2{
+        left:350px;
+        top:300px;
+}
+.d3{
+    
+    left:750px;
+    top:300px;
+}
+.d4{
+    left:1020px;
+    top:300px;
+}
+.meallist__s1{
+    display: flex;
+    gap: 10px;
+    flex-grow: 3;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.meallist__s1 img{
+    width: 310px;
+    height: 300px;
+}
+.travelcreator h3{
+font-weight: light;
+}
+.travelcreator__s1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    flex-grow: 3;
+    flex-basis: 30px;
+    justify-content: space-around;
+}
+.travelcreator__s1 img{
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+}
+.travelcreator__s2{
+    display: flex;
+    gap:10px;
+    justify-content: space-around;
+}
+.travelcreator__s2-c1,.travelcreator__s2-c2,.travelcreator__s2-c3{
+    text-align: center;
+    font-weight: 200;
+}
+.explore{
+    width:fit-content;
+    height: fit-content;
+    background-color:#f2f1ec;
+    padding: 10px;
+   
+}
+.explore__pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:05px ;
+}
+.explore__pic img{
+width: 30%;
+border-radius: 20px;
+position:relative;
+}
+ .heart1,.heart2,.heart3{
+    position:absolute;
+    width: 20px;
+    height: 40px;
+    right: 90px;
+    bottom:100px;
+}
+.explore__pic-content{
+    display: flex;
+    justify-content:space-around;
+    flex-grow: 3;
+    flex-basis: 300px;
+    align-items: center;
+}
+
+.explore__pic-content p{
+    padding: 10px;
+    width: 300px;
+    font-weight: bold;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    gap:10px;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-around;
+}
+ .footer__division4{
+    margin-left: 250px;
+}
+.footercontact{
+    display: flex;
+    padding: 10;
+    gap:10px;
+    position: relative;
+}
+.footercontact__logo{
+    background-color: #34e0a1;
+    width: fit-content;
+    height: 40px;
+    border-radius: 50px;
+    padding: 5px;
+}
+.footercontact__logo img{
+    width: 40px;
+}
+.dropdown{
+    justify-content: flex-end;
+    position: absolute;
+    right:100px;
+    display: flex;
+    gap:20px;
+}
+.dropdown button{
+    border-radius: 25px;
+    height: 40px;
+    padding: 0px;
+    padding-top:0px ;
+    width: 150px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}   
+.dropdown select{
+    background-color: white;
+    border: none;
+    width: 140px;
+}
+#currency option,#country option{
+    border: 0px;
+    outline: 0px;
+}
+.dropdown select:hover{
+border: none;
+}
+.footerspace{
+    width: 100%;
+    height:100px;
+}
+@media screen and (max-width:800px) {
+    .options-list{
+        display: none;
+    }   
+    body{
+        font-size: small;
+    } 
+    .navbar__s2 p{
+    display: none;        
+    }
+}
